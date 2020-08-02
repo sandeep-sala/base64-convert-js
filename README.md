@@ -1,13 +1,13 @@
-# Json Beautifier/Minifier
+# Base64 Convert
 
-It a simple Json Beautifier/Minifier
+You can convert string/image to base64 & base64 to string/image  
 
 ## Installation
 
 ```bash
-git clone https://github.com/sandeep-sala/json-beautifier.git
+git clone https://github.com/sandeep-sala/base64-convert.git
 or
-git clone https://github.com/sandeep-sala/json-beautifier.git <folder name>
+git clone https://github.com/sandeep-sala/base64-convert.git <folder name>
 ```
 
 
@@ -20,4 +20,4 @@ open index.html in browser
 
 ## Screenshots
 
-![ScreenShot](https://i.postimg.cc/wjMDGvrB/Annotation-2020-08-02-155108.png)
+![ScreenShot]()
