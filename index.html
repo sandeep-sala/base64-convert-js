@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="base64 coding">
+    <meta name="keywords" content="base64,encoding,decoding">
+    <meta name="author" content="Sandeep Sala">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base64</title>
+    <link rel="icon" href="https://i.postimg.cc/NF3M4ryF/circle-cropped.png" type="image/icon type">
+    <link rel="stylesheet" type="text/css" href="src/css/app.css">
+</head>
+
+<body>
+
+    <h3>Base64 Encode/Decode</h3>
+
+    <section class="main-container">
+        <div class="tab">
+            <button class="tablinks" onclick="openTabs(event, 'Tab1')" id="defaultOpen">String</button>
+            <button class="tablinks" onclick="openTabs(event, 'Tab2')">Image</button>
+        </div>
+        <div id="Tab1" class="tabcontent">
+            <section class="main-contain">
+                <textarea autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" id="input1"></textarea>
+                <div>
+                    <select id="code_type">
+                        <option value="1">Encode</option>
+                        <option value="2">Decode</option>
+                    </select>
+                    <button onclick="base64()" id="code_submit">GO!</button>
+                </div>
+                <textarea autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" id="output1"></textarea>
+            </section>
+        </div>
+        <div id="Tab2" class="tabcontent">
+            <input type="file" id="myfile" name="myfile">
+        </div>
+    </section>
+
+    <footer class="main-div_footer">made with ❤️ ~ <b>Sandeep Sala</b></footer>
+    <script src="src/js/app.js"></script>
+</body>
+
+</html>
