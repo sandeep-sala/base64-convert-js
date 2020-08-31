@@ -35,7 +35,20 @@
             </section>
         </div>
         <div id="Tab2" class="tabcontent">
-            <h3>Comming Soon ...</h3>
+            <section class="main-contain">
+                <div style="display: flex;justify-content: space-between;">
+                    <input type="file" id="image_input1" accept="image/*" />    
+                    <button onclick="encodeImageFileAsURL()" id="code_image_submit">Encode</button>
+                </div>
+                <textarea autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" id="image_output1"></textarea>
+            </section>
+            <section class="main-contain">
+                <div id="img_contineer">
+                    <textarea autocomplete="off" autocorrect="off" style="width: 50%;" autocapitalize="off" spellcheck="false" id="encode_input01"></textarea>    
+                    <img id="image_display"  style="height: 12.5em;width: 48%;" src="">
+                </div>
+                <button onclick="decodeImage()" id="code_image_submit">Decode</button>
+            </section>
         </div>
     </section>
 
