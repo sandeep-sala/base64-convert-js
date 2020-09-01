@@ -102,8 +102,26 @@ h3 {
 
 #img_contineer{
     box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
 }
 
+
+#image_display{
+    width: 48%;
+    display: inline-block;
+    background: #f18e0f38;
+    height: 12.5em;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+#image_display img{
+    width: 100%;
+    height: 100%;
+}
 
 #code_submit:hover,
 #code_submit:active {

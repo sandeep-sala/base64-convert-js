@@ -52,8 +52,10 @@ function encodeImageFileAsURL() {
 
 
 function decodeImage(){
-    var s = document.getElementById('encode_input01').value
+    s = document.getElementById('encode_input01').value
     var image = new Image();
     image.src = s ;
-    document.getElementById('image_display').src = s;
+    document.querySelector('#image_display').href = s
+    document.getElementById('image_display').appendChild(image)
 }
+
