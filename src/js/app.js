@@ -1,6 +1,5 @@
 window.addEventListener('DOMContentLoaded', function() {
     try {
-
     } catch (error) {
         console.log('%cError', 'background: red;padding:5px;border-radius:5px;color:white;display: block;', error);
     }
@@ -21,8 +20,6 @@ function openTabs(evt, cityName) {
 }
 document.getElementById("defaultOpen").click();
 
-
-
 function base64() {
     try {
         var type = document.getElementById('code_type').value
@@ -39,7 +36,6 @@ function base64() {
     }
 }
 
-
 function encodeImageFileAsURL() {
     var element = document.getElementById('image_input1')
     var file = element.files[0];
@@ -48,14 +44,13 @@ function encodeImageFileAsURL() {
         document.getElementById('image_output1').value = reader.result;
     }
     reader.readAsDataURL(file);
-  }
-
+}
 
 function decodeImage(){
     s = document.getElementById('encode_input01').value
     var image = new Image();
     image.src = s ;
     document.querySelector('#image_display').href = s
+    document.querySelector('#image_display').setAttribute('download','image')
     document.getElementById('image_display').appendChild(image)
 }
-
