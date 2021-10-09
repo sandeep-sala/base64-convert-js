@@ -20,4 +20,4 @@ open index.html in browser
 
 ## Screenshots
 
-![ScreenShot]()
+![ScreenShot](https://raw.githubusercontent.com/sandeep-sala/base64-convert/master/src/img/base64.png)
